@@ -1,6 +1,7 @@
 package com.teacup.ceilingfan;
 
 import com.teacup.ceilingfan.service.FanService;
+import com.teacup.ceilingfan.service.FanServiceImpl;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
@@ -11,7 +12,7 @@ class FanServiceTest {
 
     @BeforeEach
     void setUp() {
-        fanService = new FanService();
+        fanService = new FanServiceImpl();
     }
 
     @Test
